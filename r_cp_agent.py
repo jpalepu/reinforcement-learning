@@ -7,12 +7,14 @@ if __name__ == "__main__":
     obs = env.reset()
 
 while True:
+
     action = env.action_space.sample()
     obs, reward, done, _ = env.step(action)
     total_reward += reward
     total_steps +=1
     if done:
         break
+
     print(("Episode	done in	%d steps, total	reward	%.2f"	%	(total_steps,	total_reward)))
     print(obs,reward,done)
     
