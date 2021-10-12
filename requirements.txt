@@ -5,7 +5,7 @@ numpy==1.14.2
 atari-py==0.1.1 
 gym==0.10.4 
 ptan==0.3 
-opencv-python==4.1.1.26
+opencv-python==4.2.0.32
 scipy==1.0.1 
 torch==1.3.0
 torchvision==0.2.1 
